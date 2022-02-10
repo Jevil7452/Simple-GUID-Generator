@@ -1,2 +1,2 @@
 # Simple-GUID-Generator
-A simple GUID generator made in Visual Basic. Should work with anything that can run .NET 2.0 and above.
+A simple GUID generator made in Visual Basic. Should work with anything that can run .NET 3.5 and above.
