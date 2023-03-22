@@ -5,4 +5,8 @@
             My.Computer.Clipboard.SetText(TextBox1.Text)
         End If
     End Sub
+
+    Private Sub Form1_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
+        If e.KeyCode = Keys.Escape Then Me.Close()
+    End Sub
 End Class

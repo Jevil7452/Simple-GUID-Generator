@@ -59,15 +59,5 @@ Namespace My.Resources
                 resourceCulture = value
             End Set
         End Property
-        
-        '''<summary>
-        '''  Wyszukuje zlokalizowany zasób typu System.Drawing.Icon podobny do zasobu (Ikona).
-        '''</summary>
-        Friend ReadOnly Property envvar() As System.Drawing.Icon
-            Get
-                Dim obj As Object = ResourceManager.GetObject("envvar", resourceCulture)
-                Return CType(obj,System.Drawing.Icon)
-            End Get
-        End Property
     End Module
 End Namespace
